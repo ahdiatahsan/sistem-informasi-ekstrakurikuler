@@ -1,0 +1,204 @@
+/*Body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  background-color: white;
+  min-height: 645px;
+  margin-bottom: 50px;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #484848;
+  margin: 1em 0;
+  padding: 0;
+}
+
+div .container {
+  width: 100%;
+}
+
+.font-header {
+  color: #110f0f;
+}
+
+.font-color-primary {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #53524f;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-bottom1 {
+  margin-bottom: 50px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.btn1 {
+  outline: none;
+  border: none;
+  background-color: #212223;
+  color: #ffffff;
+}
+
+.btn1:hover,
+.btn1:active,
+.btn1:focus {
+  border-style: outline;
+  border: none;
+  background-color: #383a3d;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-toggler {
+  background-image: url("../img/icon.png");
+}
+
+.jumbotron {
+  background-color: #eeeeee;
+  padding: 30px;
+}
+
+/*Content*/
+.table1 {
+  min-width: 100%;
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+.card .card-block .card-text a:hover {
+  text-decoration: underline;
+}
+
+.card-1 {
+  background: url("../img/card1.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 160px;
+}
+
+.card-2 {
+  background: url("../img/card2.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 160px;
+}
+
+.card-3 {
+  background: url("../img/card3.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 160px;
+}
+
+.card-3 .card-block .card-text a {
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
+}
+
+.card-3 .card-block .card-text a:hover,
+.card-3 .card-block .card-text a:focus {
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+}
+
+.card-4 {
+  background: url("../img/card4.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 160px;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.card-border {
+  border: none !important;
+}
+
+.info-box {
+  min-height: 140px;
+  margin-bottom: 30px;
+  padding: 20px;
+  padding-left: 65px;
+  color: #2e2e2e;
+  -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 3px 1px -1px rgba(0, 0, 0, 0.1);
+}
+
+.info-box i {
+  display: block;
+  height: 100px;
+  font-size: 70px;
+  line-height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  padding-right: 20px;
+  color: #2e2e2e;
+}
+
+.info-box .count {
+  margin-top: 20px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.info-box .title {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.img-size {
+  width: 100%;
+}
+
+/*todo footer*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Set the fixed height of the footer here */
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  color: #f5f5f5;
+  text-align: center;
+  z-index: 2 !important;
+}
+
+.padding-footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

@@ -1,0 +1,57 @@
+/*font*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+@font-face {
+  font-family: "opensans";
+  src: url("../assets/font/OpenSans-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  background-image: url("../img/wallpaper.png");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "opensans";
+  margin-bottom: 50px;
+}
+
+.welcome {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #fcfcfc;
+}
+
+.card {
+  background-color: #fcfcfc;
+  box-shadow: 0px 6px 0px gray;
+  width: 100%;
+}
+
+.card:hover {
+  border-color: black;
+}
+
+.form-control:focus {
+  border-color: gray;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.has-error .form-control:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn {
+  font-size: 15px;
+  width: 90px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
